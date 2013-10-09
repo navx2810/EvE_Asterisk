@@ -1,6 +1,8 @@
 package net.matt.entity;
 
-public class Asteroid {
+import net.matt.util.interfaces.saveable;
+
+public class Asteroid implements saveable {
 	
 	String name;
 	double price;

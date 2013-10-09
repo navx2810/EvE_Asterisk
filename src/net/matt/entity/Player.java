@@ -1,6 +1,8 @@
 package net.matt.entity;
 
-public class Player {
+import net.matt.util.interfaces.saveable;
+
+public class Player implements saveable {
 	
 	String name, notes;
 	
