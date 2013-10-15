@@ -10,7 +10,6 @@ public class Task {
 	
 	public Task(String code, String name, String description,
 			GregorianCalendar dateIssued, GregorianCalendar dateEnding) {
-		super();
 		this.code = code;
 		this.name = name;
 		this.description = description;
